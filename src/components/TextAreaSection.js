@@ -37,8 +37,6 @@ function TextAreaSection(props) {
         .replace("|,", "|")})`;
     };
 
-    console.log(buildRegularExpression());
-
     const regularExpression = new RegExp(buildRegularExpression());
 
     textareaValue.split("\n").forEach((element) => {
