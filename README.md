@@ -4,8 +4,8 @@ Developed in React JS, upload your .txt file, complete the Textarea field with y
 
 ## Usage
 
-Step 1 - Upload your text file, each line in your text plain is considered a new sentence.\
-Step 2 - The same for this step; each line is considered a new sentence.\
+Step 1 - Upload your text file, each line in your text plain is considered a new sentence to match.\
+Step 2 - The same for this step; each line is considered a new sentence to match file's content.\
 Result - The result of your tests.
 
 ## Installation
