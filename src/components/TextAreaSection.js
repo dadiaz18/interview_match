@@ -34,7 +34,8 @@ function TextAreaSection(props) {
           !(i + 1 === length) ? element + "|" : element
         )
         .toString()
-        .replace("|,", "|")})`;
+        .split("|,")
+        .join("|")})`;
     };
 
     const regularExpression = new RegExp(buildRegularExpression());
